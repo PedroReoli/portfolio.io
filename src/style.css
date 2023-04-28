@@ -1,0 +1,117 @@
+/* estilo do cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 20px;
+}
+
+header img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+header h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* estilo dos projetos */
+#projetos {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.projeto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.projeto1 {
+  background-size: cover;
+  background-position: center;
+}
+
+
+.projeto h3 {
+  margin-top: 0;
+}
+
+.projeto p {
+  font-size: 14px;
+}
+
+.projeto a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* estilo do formulário de contato */
+#contato {
+  background-color: #333;
+  color: white;
+  padding: 50px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* estilo do rodapé */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
